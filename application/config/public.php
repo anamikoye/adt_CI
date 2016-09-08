@@ -3,7 +3,7 @@
 /**
  * Sekati CodeIgniter Asset Helper
  *
- * @package		Assets
+ * @package		public
  * @author		</Name>
  * @copyright	Copyright (c) 2013, Sekati LLC.
  * @license		http://www.opensource.org/licenses/mit-license.php
@@ -26,8 +26,8 @@
  *				Autoload CodeIgniter's url_helper in `application/config/autoload.php`:
  *				$autoload['helper'] = array('url');
  *
- * @notes		Organized assets in the top level of your CodeIgniter 2.x app:
- *					- assets/
+ * @notes		Organized public in the top level of your CodeIgniter 2.x app:
+ *					- public/
  *						-- css/
  *						-- download/
  *						-- img/
@@ -46,21 +46,21 @@
 | Custom Asset Paths for asset_helper.php
 |--------------------------------------------------------------------------
 |
-| URL Paths to static assets library
+| URL Paths to static public library
 |
 */
 
-$config['asset_path'] 		= 	'assets/';
-$config['css_path'] 		= 	'assets/css/';
-$config['download_path'] 	= 	'assets/download/';
-$config['less_path'] 		= 	'assets/less/';
-$config['js_path'] 			= 	'assets/js/';
+$config['asset_path'] 		= 	'public/';
+$config['css_path'] 		= 	'public/css/';
+$config['download_path'] 	= 	'public/download/';
+$config['less_path'] 		= 	'public/less/';
+$config['js_path'] 			= 	'public/js/';
 $config['img_path'] 		= 	'img/';
-$config['swf_path'] 		= 	'assets/swf/';
-$config['upload_path'] 		= 	'assets/upload/';
-$config['xml_path'] 		= 	'assets/xml/';
-$config['plugin_path']		=	'assets/plugins/';
-$config['files_path']		=	'assets/files/';
+$config['swf_path'] 		= 	'public/swf/';
+$config['upload_path'] 		= 	'public/upload/';
+$config['xml_path'] 		= 	'public/xml/';
+$config['plugin_path']		=	'public/plugins/';
+$config['files_path']		=	'public/files/';
 
 $config['css_files']		=	array(
 
