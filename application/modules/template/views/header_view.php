@@ -10,7 +10,7 @@
 <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 <meta name="author" content="Star Sarifi Tours">
 <meta name="Resource-type" content="Document">
-<link rel="shortcut icon" type="img/x-icon" href="<?php echo base_url() .'assets/icons/afric.jpg'?>"/>
+<link rel="shortcut icon" type="img/x-icon" href="<?php echo base_url() .'assets/template/favicon/favicon.png'?>"/>
 <!-- dynamic files includes all the .js .css plugins-->
  	<?php      	
 		$this->load->view('utils/dynamic_files');//..............this is to autoload the dynamic css and js files
@@ -20,4 +20,4 @@
 
 </head>
 
-<body>
+<body class="smart-style-0">
