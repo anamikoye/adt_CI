@@ -10,16 +10,14 @@
 <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 <meta name="author" content="Star Sarifi Tours">
 <meta name="Resource-type" content="Document">
-<!-- <script src="assets/plugins/jquery/jquery-1.11.3.min.js"></script>
  --><!-- Attaching the aadverntsafaris Icon logo -->
 <link rel="shortcut icon" type="img/x-icon" href="<?php echo base_url() .'assets/icons/afric.jpg'?>"/>
 <!-- dynamic files includes all the .js .css plugins-->
  	<?php      	
 		$this->load->view('utils/dynamic_files');//..............this is to autoload the dynamic css and js files
 	?>
-
 <!-- Here is the title of Each page Module -->
-<title>Star Safiri | <?php echo $title; ?></title>
+<title>webADT | <?php echo $title; ?></title>
 
 </head>
 
