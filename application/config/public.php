@@ -51,11 +51,11 @@
 */
 
 $config['asset_path'] 		= 	'public/';
-$config['css_path'] 		= 	'public/css/';
+$config['css_path'] 		= 	'public/template/css/';
 $config['download_path'] 	= 	'public/download/';
 $config['less_path'] 		= 	'public/less/';
-$config['js_path'] 			= 	'public/js/';
-$config['img_path'] 		= 	'img/';
+$config['js_path'] 			= 	'public/template/js/';
+$config['img_path'] 		= 	'pulic/template/img/';
 $config['swf_path'] 		= 	'public/swf/';
 $config['upload_path'] 		= 	'public/upload/';
 $config['xml_path'] 		= 	'public/xml/';
@@ -64,9 +64,13 @@ $config['files_path']		=	'public/files/';
 
 $config['css_files']		=	array(
 
-									array('title' => 'custom'	,	'file'	=>	'custom.css'),
-								    array('title' => 'signin'   ,   'file'  =>  'signin.css')
-
+							array('title' => 'bootstrap'	,	'file'	=>	'bootstrap.min.css'),
+						    array('title' => 'demo'   		,   'file'  =>  'demo.min.css'),
+						    array('title' => 'fonts'		,	'file'	=>	'font-awesome.min.css'),,
+						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-production.min.css'),
+						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-production-plugins.min.css'),
+						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-rtl.min.css'),
+						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-skins.min.css')
 									);
 $config['js_files']			=	array(
 									array('')
