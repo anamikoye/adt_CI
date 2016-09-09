@@ -5,7 +5,7 @@ class patient extends MY_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('patient_model');
+		// $this->load->model('patient_model');
 	}
 
 	public function index()
