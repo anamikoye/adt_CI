@@ -13,17 +13,17 @@ class  MY_Controller  extends  MX_Controller {
 
 		$this->load->module('template');
 		$this->template->load_view($data);
-
 	}
 
-	public function load_libraries($arr){
+	public function load_libraries($arr=NULL){
 
 		array_unshift($arr, "jquery","bootstrap");
 				
-		$libs['js_files']				=	array();		
-		$libs['css_files']				=	array();			
-		$libs['js_plugin_files']		=	array();
 		$libs['css_plugin_files']		=	array();
+		$libs['css_files']				=	array();			
+		$libs['js_files']				=	array();		
+		$libs['js_plugin_files']		=	array();
+		
 
 		$asset_path		=	$this->config->item('asset_path');
 
@@ -37,6 +37,15 @@ class  MY_Controller  extends  MX_Controller {
 		$all_plugin_js	=	$this->config->item('plugin_js_files');
 
 		
+		//load plugin css from the css folder
+		foreach ($arr as $css) {
+			foreach($all_plugin_css as $all){
+				if($css==$all['title']){
+					$libs['css_plugin_files']	=	array_merge($libs['css_plugin_files'],array($all['file']));
+				}
+			}
+		}
+		
 		//load custom made css
 		foreach ($arr as $css) {
 			foreach($all_css as $all){
@@ -46,6 +55,7 @@ class  MY_Controller  extends  MX_Controller {
 			}
 		}
 
+		
 		//load custom made js
 		foreach ($arr as $js) {
 			foreach($all_js as $all){
@@ -54,25 +64,16 @@ class  MY_Controller  extends  MX_Controller {
 				}
 			}
 		}
-		
-		//load plugin css from the css folder
-		// foreach ($arr as $css) {
-		// 	foreach($all_plugin_css as $all){
-		// 		if($css==$all['title']){
-		// 			$libs['css_plugin_files']	=	array_merge($libs['css_plugin_files'],array($all['file']));
-		// 		}
-		// 	}
-		// }
-		//load plugin js from the plugin js folder
-		// foreach ($arr as $js) {
-		// 	foreach($all_plugin_js as $all){
-		// 		if($js==$all['title']){
-		// 			$libs['js_plugin_files']	=	array_merge($libs['js_plugin_files'],array($all['file']));
 
-		// 		}
-		// 	}
-		// }
-		
+		//load plugin js from the plugin js folder
+		foreach ($arr as $js) {
+			foreach($all_plugin_js as $all){
+				if($js==$all['title']){
+					$libs['js_plugin_files']	=	array_merge($libs['js_plugin_files'],array($all['file']));
+
+				}
+			}
+		}
 		
 		return 	$libs;
 	}

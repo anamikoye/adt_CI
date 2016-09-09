@@ -3,7 +3,7 @@
 /**
  * Sekati CodeIgniter Asset Helper
  *
- * @package		public
+ * @package		assets
  * @author		</Name>
  * @copyright	Copyright (c) 2013, Sekati LLC.
  * @license		http://www.opensource.org/licenses/mit-license.php
@@ -26,8 +26,8 @@
  *				Autoload CodeIgniter's url_helper in `application/config/autoload.php`:
  *				$autoload['helper'] = array('url');
  *
- * @notes		Organized public in the top level of your CodeIgniter 2.x app:
- *					- public/
+ * @notes		Organized assets in the top level of your CodeIgniter 2.x app:
+ *					- assets/
  *						-- css/
  *						-- download/
  *						-- img/
@@ -46,21 +46,21 @@
 | Custom Asset Paths for asset_helper.php
 |--------------------------------------------------------------------------
 |
-| URL Paths to static public library
+| URL Paths to static assets library
 |
 */
 
-$config['asset_path'] 		= 	'public/';
-$config['css_path'] 		= 	'public/template/css/';
-$config['download_path'] 	= 	'public/download/';
-$config['less_path'] 		= 	'public/less/';
-$config['js_path'] 			= 	'public/template/js/';
-$config['img_path'] 		= 	'pulic/template/img/';
-$config['swf_path'] 		= 	'public/swf/';
-$config['upload_path'] 		= 	'public/upload/';
-$config['xml_path'] 		= 	'public/xml/';
-$config['plugin_path']		=	'public/plugins/';
-$config['files_path']		=	'public/files/';
+$config['asset_path'] 		= 	'assets/';
+$config['css_path'] 		= 	'assets/template/css/';
+$config['download_path'] 	= 	'assets/download/';
+$config['less_path'] 		= 	'assets/less/';
+$config['js_path'] 			= 	'assets/template/js/';
+// $config['img_path'] 		= 	'assets/template/img/';
+$config['swf_path'] 		= 	'assets/swf/';
+$config['upload_path'] 		= 	'assets/upload/';
+$config['xml_path'] 		= 	'assets/xml/';
+$config['plugin_path']		=	'assets/plugins/';
+$config['files_path']		=	'assets/files/';
 
 $config['css_files']		=	array(
 							array('title' => 'bootstrap'	,	'file'	=>	'bootstrap.min.css'),
@@ -72,8 +72,8 @@ $config['css_files']		=	array(
 						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-skins.min.css')
 									);
 $config['js_files']			=	array(
-							array('title' => 'jquery'	,	'file'	=>	'lib/jquery-2.1.1.min.js'),
-							array('title' => 'jquery'	,	'file'	=>	'lib/jquery-ui-1.10.3.min.js'),
+							array('title' => 'jquery'	,	'file'	=>	'libs/jquery-2.1.1.min.js'),
+							array('title' => 'jquery'	,	'file'	=>	'libs/jquery-ui-1.10.3.min.js'),
 							array('title' => 'bootrap'	,	'file'	=>	'bootstrap/bootstrap.min.js')
 								);
 $config['plugin_js_files']	=	array(

@@ -97,7 +97,7 @@ $autoload['helper'] = array('url', 'file','html','path','form');
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array('public');
+$autoload['config'] = array('asset');
 
 /*
 | -------------------------------------------------------------------
