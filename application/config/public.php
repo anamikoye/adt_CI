@@ -63,7 +63,6 @@ $config['plugin_path']		=	'public/plugins/';
 $config['files_path']		=	'public/files/';
 
 $config['css_files']		=	array(
-
 							array('title' => 'bootstrap'	,	'file'	=>	'bootstrap.min.css'),
 						    array('title' => 'demo'   		,   'file'  =>  'demo.min.css'),
 						    array('title' => 'fonts'		,	'file'	=>	'font-awesome.min.css'),,
@@ -73,7 +72,9 @@ $config['css_files']		=	array(
 						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-skins.min.css')
 									);
 $config['js_files']			=	array(
-									array('')
+							array('title' => 'jquery'	,	'file'	=>	'lib/jquery-2.1.1.min.js'),
+							array('title' => 'jquery'	,	'file'	=>	'lib/jquery-ui-1.10.3.min.js'),
+							array('title' => 'bootrap'	,	'file'	=>	'bootstrap/bootstrap.min.js')
 								);
 $config['plugin_js_files']	=	array(
 
