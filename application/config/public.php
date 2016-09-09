@@ -65,7 +65,7 @@ $config['files_path']		=	'public/files/';
 $config['css_files']		=	array(
 							array('title' => 'bootstrap'	,	'file'	=>	'bootstrap.min.css'),
 						    array('title' => 'demo'   		,   'file'  =>  'demo.min.css'),
-						    array('title' => 'fonts'		,	'file'	=>	'font-awesome.min.css'),,
+						    array('title' => 'fonts'		,	'file'	=>	'font-awesome.min.css'),
 						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-production.min.css'),
 						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-production-plugins.min.css'),
 						    array('title' => 'smartadmin'	,	'file'	=>	'smartadmin-rtl.min.css'),
