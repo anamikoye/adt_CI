@@ -74,7 +74,8 @@ $config['css_files']		=	array(
 $config['js_files']			=	array(
 							array('title' => 'jquery'	,	'file'	=>	'libs/jquery-2.1.1.min.js'),
 							array('title' => 'jquery'	,	'file'	=>	'libs/jquery-ui-1.10.3.min.js'),
-							array('title' => 'bootrap'	,	'file'	=>	'bootstrap/bootstrap.min.js')
+							array('title' => 'bootrap'	,	'file'	=>	'bootstrap/bootstrap.min.js'),
+							array('title' => 'configjs'	,	'file'	=>	'app.config.js')
 								);
 $config['plugin_js_files']	=	array(
 

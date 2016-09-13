@@ -14,7 +14,7 @@ class patient extends MY_Controller {
 
 		$data['title']="Patients";
 
-		$data = array_merge($data,$this->load_libraries(array('fonts','jquery','smartadmin','bootstrap')));
+		$data = array_merge($data,$this->load_libraries(array('fonts','jquery','smartadmin','bootstrap','configjs')));
 
 		$this->template($data);
 	}
