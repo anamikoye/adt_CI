@@ -8,9 +8,9 @@
 				<span> <!-- User image size is adjusted inside CSS, it should stay as is --> 
 					
 					<a href="javascript:void(0);" id="show-shortcut" data-action="toggleShortcut">
-						<img src="img/avatars/sunny.png" alt="me" class="online" /> 
+						<img src="<?php echo base_url().'assets/template/img/avatars/sunny.png'?>" alt="me" class="online" /> 
 						<span>
-							john.doe 
+							Kevin Marete
 						</span>
 						<i class="fa fa-angle-down"></i>
 					</a> 
@@ -34,7 +34,7 @@
 
 				<ul>
 					<li class="">
-						<a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Dashboard</span></a>
+						<a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Patients</span></a>
 						<ul>
 							<li class="">
 								<a href="ajax/dashboard.html" title="Dashboard"><span class="menu-item-parent">Analytics Dashboard</span></a>
@@ -355,7 +355,7 @@
 									  	data-html="true" 
 									  	data-content="
 											<div class='usr-card'>
-												<img src='img/avatars/5.png' alt='Sadi Orlaf'>
+												<img src="<php echo base_url().'assets/templates/img/avatars/5.png'?>" alt='Sadi Orlaf'>
 												<div class='usr-card-content'>
 													<h3>Sadi Orlaf</h3>
 													<p>Marketing Executive</p>

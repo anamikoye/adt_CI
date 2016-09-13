@@ -3,4 +3,6 @@
 
  require('sidebar.php');
 
+ require('mainpanel.php');
+
 ?>
