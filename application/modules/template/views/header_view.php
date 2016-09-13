@@ -35,4 +35,4 @@
 
 </head>
 
-<body class="smart-style-0">
+<body class=" fixed-navigation fixed-header fixed-ribbon smart-style-0">
