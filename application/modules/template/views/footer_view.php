@@ -57,7 +57,9 @@
 		</div>
 		<!-- END FOOTER -->
 
-
+<?php 
+require('shortcut_pluggins.php');
+?>
 
 
 

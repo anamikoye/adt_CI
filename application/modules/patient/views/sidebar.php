@@ -34,7 +34,7 @@
 
 				<ul>
 					<li class="">
-						<a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Patients</span></a>
+						<a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Home Dashboard</span></a>
 						<ul>
 							<li class="">
 								<a href="ajax/dashboard.html" title="Dashboard"><span class="menu-item-parent">Analytics Dashboard</span></a>
