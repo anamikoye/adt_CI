@@ -34,7 +34,7 @@
 
 				<ul>
 					<li class="">
-						<a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Home Dashboard</span></a>
+						<a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent"> Dashboard</span></a>
 						<ul>
 							<li class="">
 								<a href="ajax/dashboard.html" title="Dashboard"><span class="menu-item-parent">Analytics Dashboard</span></a>
@@ -46,29 +46,29 @@
 					</li>
 					<!-- !! Patients Zone Begin !! -->
 					<li>
-						<a href="#"><i class=""></i><span class="menu-item-parent">Patients</span></a>
+						<a href="#" title="Patients"><i class="fa fa-lg fa-fw fa-medkit"></i> <span class="menu-item-parent"> Patients</span></a>
 						<ul>
 							<li>
-							<a href="#"><span class="menu-item-parent">Add patients</span></a>
+							<a href="#"><span class="menu-item-parent"><i class="glyphicon glyphicon-plus"></i> Add patients</span></a>
 							</li>
 							<li>
-							<a href="#"><span class="menu-item-parent">Active patients</span></a>
+							<a href="#"><span class="menu-item-parent"><i class="fa fa-lg fa-fw fa-table"></i> Active patients</span></a>
 							</li>
 							<li>
-							<a href="#"><span class="menu-item-parent">Inactive patients</span></a>
+							<a href="#"><span class="menu-item-parent"><i class="fa fa-lg fa-fw fa-table"></i> Inactive patients</span></a>
 							</li>
 							<li>
-							<a href="#"><span class="menu-item-parent">All patients</span></a>
+							<a href="#"><span class="menu-item-parent"><i class="fa fa-lg fa-fw fa-table"></i> All patients</span></a>
 							</li>
 							<li>
-							<a href="#"><span class="menu-item-parent">Export patients master list</span></a>
+							<a href="#"><span class="menu-item-parent"><i class="fa fa-download"></i> Patients master List</span></span></a>
 							</li>
 						</ul>
 					</li>
 					<!-- !! Patients Zone End !! -->
 					<!-- !! Inventory Zone Begin !! -->
 					<li>
-						<a href="#"><i class=""></i><span class="menu-item-parent">Inventory</span></a>
+						<a href="#" title="Inventory"><i class="fa fa-lg fa-fw fa-bank"></i><span class="menu-item-parent">Inventory</span></a>
 						<ul>
 							<li>
 							<a href="#"><span class="menu-item-parent">Stock transactions</span></a>
