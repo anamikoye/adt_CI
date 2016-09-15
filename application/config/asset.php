@@ -74,7 +74,23 @@ $config['css_files']		=	array(
 $config['js_files']			=	array(
 							array('title' => 'jquery'	,	'file'	=>	'libs/jquery-2.1.1.min.js'),
 							array('title' => 'jquery'	,	'file'	=>	'libs/jquery-ui-1.10.3.min.js'),
-							array('title' => 'bootrap'	,	'file'	=>	'bootstrap/bootstrap.min.js'),
+							array('title' => 'bootstrap'	,	'file'	=>	'bootstrap/bootstrap.min.js'),
+							array('title' => 'smartchart'	,	'file'	=>	'smart-chat-ui/smart.chat.manager.min.js'),
+							array('title' => 'smartchart'	,	'file'	=>	'smart-chat-ui/smart.chat.ui.min.js'),
+							array('title' => 'app', 'file' => 'app.min.js'),
+							array('title' => 'demo', 'file' => 'demo.min.js'),
+							array('title' => 'notification', 'file' => 'SmartNotification.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/bootstrap-slider/bootstrap-slider.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/easy-pie-chart/jquery.easy-pie-chart.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/fastclick/fastclick.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/jquery-touch/jquery.ui.touch-punch.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/jquery-validate/jquery.validate.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/masked-input/jquery.maskedinput.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/msie-fix/jquery.mb.browser.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/pace/pace.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/select2/jquery.select2.min.js'),
+							array('title' => 'plugins', 'file' => 'plugin/sparkline/sparkline.min.js'),
+							array('title' => 'smartwidgets', 'file' => 'jarvis.widget.min.js'),
 							array('title' => 'configjs'	,	'file'	=>	'app.config.js')
 								);
 $config['plugin_js_files']	=	array(
